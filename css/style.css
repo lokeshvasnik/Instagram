@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+
+/* this is the section tag  */
+section{
+    /* border: 2px solid black; */
+    margin: 12px 12px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* All the pre tags css  */
+
+h1{
+    font-size: 50px;
+    margin: 12px 12px;
+}
+p{
+    margin: 12px 12px;
+font-weight: bold;
+color: #8e8e8e;
+font-size-adjust: inherit;
+font-size: 17px;
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+text-align: center;
+}
+
+
+/* This is the button css  */
+
+
+button{background: #52b7ef;
+    border: 0px;
+    width: 265px;
+    height: 31px;
+    border-radius: 4px;
+    margin-top: 12px;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+
+}
+
+
+/* This is alll the boxes  */
+
+
+.box1{
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 22rem;
+    margin: 12px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box1 img{
+    width: 365px;
+}
+.box2{
+    border: 1px solid #dbdbdb;
+    height: 344px;
+    width: 22rem;
+    /* margin: 12px 12px; */
+    margin-bottom: 149px;
+
+    background-color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.imgcontainer{
+    background-color: #fafafa;
+    width: 22rem;
+    margin-top: 41px;
+}
+
+.instagram{
+    /* border: 2px solid black; */
+    margin: 23px;
+}
+
+/* This is all the form css  */
+
+
+
+form{
+    margin-left: 39px;
+}
+
+input{
+    margin: 6px;
+    border: 1px solid gray;
+    background-color: #fafafa;
+    padding: 2px 2px;
+    text-align: center;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+.email{
+    height: 24px;
+width: 193px;
+/* font-size: 16px; */
+}
+
+.name{
+    
+        height: 24px;
+    width: 193px;
+    /* font-size: 16px; */
+    
+}
+.username{
+    height: 32px;
+    width: 255px;
+    font-size: 11.5px;
+    border-radius: 4px;
+    text-align: left;
+    padding: 4px 4px;
+
+
+}
+.password{
+    height: 32px;
+    width: 255px;
+    font-size: 11.5px;
+    border-radius: 4px;
+    text-align: left;
+    padding: 4px 4px;
+
+
+
+}
+
+
+.secondpara{
+    font-size: 11px;
+    font-weight: normal;
+    
+}
+

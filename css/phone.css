@@ -1,0 +1,33 @@
+body{
+    /* background-color: red; */
+}
+
+
+#none {
+    display: none;
+    background-color: red;
+
+}
+
+section{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2{
+    /* border: 2px solid black; */
+}
+.box1{
+    /* border: 2px solid black; */
+    display: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
